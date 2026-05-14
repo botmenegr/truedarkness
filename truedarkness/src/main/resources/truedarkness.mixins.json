@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.truedarkness.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "MixinGameRenderer",
+    "MixinLightTexture"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

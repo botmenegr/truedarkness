@@ -1,0 +1,27 @@
+modLoader = "javafml"
+mixins = [{file="truedarkness.mixins.json"}]
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+    modId = "truedarkness"
+    version = "1.0.0"
+    displayName = "True Darkness"
+    description = '''
+        Полная тьма ночью и в пещерах.
+        Без факела — ничего не видно.
+    '''
+
+[[dependencies.truedarkness]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.truedarkness]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
